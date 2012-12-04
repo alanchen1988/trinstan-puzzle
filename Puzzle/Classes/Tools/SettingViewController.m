@@ -1,0 +1,1 @@
+    ////  SettingViewController.m//  Puzzle////  Created by Trinstan on 12/4/12.//  Copyright 2012 __MyCompanyName__. All rights reserved.//#import "SettingViewController.h"@implementation SettingViewController@synthesize delegate;-(void)valueChanged:(UISwitch*)sender{    [delegate enableAcceleration:sender.on];}@end
