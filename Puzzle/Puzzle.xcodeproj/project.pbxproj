@@ -15,6 +15,11 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		F8105D17166EF02F00E4A1B8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8105D16166EF02F00E4A1B8 /* MediaPlayer.framework */; };
 		F8B6D2571670638E00826A94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B6D2561670638E00826A94 /* QuartzCore.framework */; };
+		F8B6D2C716706CC500826A94 /* IAPuzzleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D2BC16706CC500826A94 /* IAPuzzleBoard.m */; };
+		F8B6D2C816706CC500826A94 /* IAPuzzleBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D2BE16706CC500826A94 /* IAPuzzleBoardView.m */; };
+		F8B6D2CD16706DFE00826A94 /* NormalPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D2CB16706DFE00826A94 /* NormalPuzzleViewController.m */; };
+		F8B6D2CE16706DFE00826A94 /* NormalPuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B6D2CC16706DFE00826A94 /* NormalPuzzleViewController.xib */; };
+		F8B6D2D116706EE500826A94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B6D2D016706EE500826A94 /* AVFoundation.framework */; };
 		F8F2B4F4166D9B0500AF163C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F2B4F3166D9B0500AF163C /* MenuViewController.m */; };
 		F8F2B516166D9CDA00AF163C /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B515166D9CDA00AF163C /* MenuViewController.xib */; };
 		F8F2B521166D9E7D00AF163C /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B51D166D9E7D00AF163C /* puppy.jpg */; };
@@ -41,6 +46,14 @@
 		8D1107310486CEB800E47090 /* Puzzle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Puzzle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		F8105D16166EF02F00E4A1B8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		F8B6D2561670638E00826A94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F8B6D2BB16706CC500826A94 /* IAPuzzleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPuzzleBoard.h; sourceTree = "<group>"; };
+		F8B6D2BC16706CC500826A94 /* IAPuzzleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPuzzleBoard.m; sourceTree = "<group>"; };
+		F8B6D2BD16706CC500826A94 /* IAPuzzleBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPuzzleBoardView.h; sourceTree = "<group>"; };
+		F8B6D2BE16706CC500826A94 /* IAPuzzleBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPuzzleBoardView.m; sourceTree = "<group>"; };
+		F8B6D2CA16706DFE00826A94 /* NormalPuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalPuzzleViewController.h; sourceTree = "<group>"; };
+		F8B6D2CB16706DFE00826A94 /* NormalPuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalPuzzleViewController.m; sourceTree = "<group>"; };
+		F8B6D2CC16706DFE00826A94 /* NormalPuzzleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalPuzzleViewController.xib; sourceTree = "<group>"; };
+		F8B6D2D016706EE500826A94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F8F2B4F2166D9B0500AF163C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		F8F2B4F3166D9B0500AF163C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		F8F2B515166D9CDA00AF163C /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
@@ -70,6 +83,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				F8105D17166EF02F00E4A1B8 /* MediaPlayer.framework in Frameworks */,
 				F8B6D2571670638E00826A94 /* QuartzCore.framework in Frameworks */,
+				F8B6D2D116706EE500826A94 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +113,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F8B6D2B416706CC500826A94 /* NormalPuzzle */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -135,8 +150,39 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				F8105D16166EF02F00E4A1B8 /* MediaPlayer.framework */,
 				F8B6D2561670638E00826A94 /* QuartzCore.framework */,
+				F8B6D2D016706EE500826A94 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8B6D2B416706CC500826A94 /* NormalPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6D2BA16706CC500826A94 /* Model */,
+				F8B6D2C216706CC500826A94 /* ViewController */,
+			);
+			path = NormalPuzzle;
+			sourceTree = "<group>";
+		};
+		F8B6D2BA16706CC500826A94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6D2BB16706CC500826A94 /* IAPuzzleBoard.h */,
+				F8B6D2BC16706CC500826A94 /* IAPuzzleBoard.m */,
+				F8B6D2BD16706CC500826A94 /* IAPuzzleBoardView.h */,
+				F8B6D2BE16706CC500826A94 /* IAPuzzleBoardView.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8B6D2C216706CC500826A94 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6D2CA16706DFE00826A94 /* NormalPuzzleViewController.h */,
+				F8B6D2CB16706DFE00826A94 /* NormalPuzzleViewController.m */,
+				F8B6D2CC16706DFE00826A94 /* NormalPuzzleViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		F8F2B4F0166D9AE100AF163C /* Model */ = {
@@ -239,6 +285,7 @@
 				F8F2B522166D9E7D00AF163C /* puzzle_background.jpg in Resources */,
 				F8F2B52E166D9EE600AF163C /* PuzzleMainViewController.xib in Resources */,
 				F8F2B5C1166DC49600AF163C /* SettingViewController.xib in Resources */,
+				F8B6D2CE16706DFE00826A94 /* NormalPuzzleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +304,9 @@
 				F8F2B5F3166DD4F000AF163C /* PuzzleGameModel.m in Sources */,
 				F8F2B5F6166DD51600AF163C /* PuzzleGameImageView.m in Sources */,
 				F8F2B5FA166DD64200AF163C /* UIImage+Category.m in Sources */,
+				F8B6D2C716706CC500826A94 /* IAPuzzleBoard.m in Sources */,
+				F8B6D2C816706CC500826A94 /* IAPuzzleBoardView.m in Sources */,
+				F8B6D2CD16706DFE00826A94 /* NormalPuzzleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
