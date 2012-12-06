@@ -17,10 +17,8 @@
 		F8B6D2571670638E00826A94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B6D2561670638E00826A94 /* QuartzCore.framework */; };
 		F8F2B4F4166D9B0500AF163C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F2B4F3166D9B0500AF163C /* MenuViewController.m */; };
 		F8F2B516166D9CDA00AF163C /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B515166D9CDA00AF163C /* MenuViewController.xib */; };
-		F8F2B520166D9E7D00AF163C /* mypeople.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B51C166D9E7D00AF163C /* mypeople.jpg */; };
 		F8F2B521166D9E7D00AF163C /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B51D166D9E7D00AF163C /* puppy.jpg */; };
 		F8F2B522166D9E7D00AF163C /* puzzle_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B51E166D9E7D00AF163C /* puzzle_background.jpg */; };
-		F8F2B523166D9E7D00AF163C /* sketch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B51F166D9E7D00AF163C /* sketch.jpg */; };
 		F8F2B52D166D9EE600AF163C /* PuzzleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F2B52B166D9EE600AF163C /* PuzzleMainViewController.m */; };
 		F8F2B52E166D9EE600AF163C /* PuzzleMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B52C166D9EE600AF163C /* PuzzleMainViewController.xib */; };
 		F8F2B5C0166DC49600AF163C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F2B5BE166DC49600AF163C /* SettingViewController.m */; };
@@ -46,10 +44,8 @@
 		F8F2B4F2166D9B0500AF163C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		F8F2B4F3166D9B0500AF163C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		F8F2B515166D9CDA00AF163C /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
-		F8F2B51C166D9E7D00AF163C /* mypeople.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mypeople.jpg; sourceTree = "<group>"; };
 		F8F2B51D166D9E7D00AF163C /* puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy.jpg; sourceTree = "<group>"; };
 		F8F2B51E166D9E7D00AF163C /* puzzle_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puzzle_background.jpg; sourceTree = "<group>"; };
-		F8F2B51F166D9E7D00AF163C /* sketch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch.jpg; sourceTree = "<group>"; };
 		F8F2B52A166D9EE600AF163C /* PuzzleMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleMainViewController.h; sourceTree = "<group>"; };
 		F8F2B52B166D9EE600AF163C /* PuzzleMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleMainViewController.m; sourceTree = "<group>"; };
 		F8F2B52C166D9EE600AF163C /* PuzzleMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PuzzleMainViewController.xib; sourceTree = "<group>"; };
@@ -170,10 +166,8 @@
 		F8F2B51B166D9E7D00AF163C /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				F8F2B51C166D9E7D00AF163C /* mypeople.jpg */,
 				F8F2B51D166D9E7D00AF163C /* puppy.jpg */,
 				F8F2B51E166D9E7D00AF163C /* puzzle_background.jpg */,
-				F8F2B51F166D9E7D00AF163C /* sketch.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -241,10 +235,8 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				F8F2B516166D9CDA00AF163C /* MenuViewController.xib in Resources */,
-				F8F2B520166D9E7D00AF163C /* mypeople.jpg in Resources */,
 				F8F2B521166D9E7D00AF163C /* puppy.jpg in Resources */,
 				F8F2B522166D9E7D00AF163C /* puzzle_background.jpg in Resources */,
-				F8F2B523166D9E7D00AF163C /* sketch.jpg in Resources */,
 				F8F2B52E166D9EE600AF163C /* PuzzleMainViewController.xib in Resources */,
 				F8F2B5C1166DC49600AF163C /* SettingViewController.xib in Resources */,
 			);
