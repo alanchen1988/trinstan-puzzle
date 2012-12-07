@@ -20,6 +20,8 @@
 		F8B6D2CD16706DFE00826A94 /* NormalPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D2CB16706DFE00826A94 /* NormalPuzzleViewController.m */; };
 		F8B6D2CE16706DFE00826A94 /* NormalPuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B6D2CC16706DFE00826A94 /* NormalPuzzleViewController.xib */; };
 		F8B6D2D116706EE500826A94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B6D2D016706EE500826A94 /* AVFoundation.framework */; };
+		F8BCB4F61671887400014A6B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BCB4F41671887400014A6B /* icon.png */; };
+		F8BCB4F71671887400014A6B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BCB4F51671887400014A6B /* icon@2x.png */; };
 		F8F2B4F4166D9B0500AF163C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F2B4F3166D9B0500AF163C /* MenuViewController.m */; };
 		F8F2B516166D9CDA00AF163C /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B515166D9CDA00AF163C /* MenuViewController.xib */; };
 		F8F2B521166D9E7D00AF163C /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F2B51D166D9E7D00AF163C /* puppy.jpg */; };
@@ -54,6 +56,8 @@
 		F8B6D2CB16706DFE00826A94 /* NormalPuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalPuzzleViewController.m; sourceTree = "<group>"; };
 		F8B6D2CC16706DFE00826A94 /* NormalPuzzleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalPuzzleViewController.xib; sourceTree = "<group>"; };
 		F8B6D2D016706EE500826A94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F8BCB4F41671887400014A6B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F8BCB4F51671887400014A6B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		F8F2B4F2166D9B0500AF163C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		F8F2B4F3166D9B0500AF163C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		F8F2B515166D9CDA00AF163C /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
@@ -212,6 +216,8 @@
 		F8F2B51B166D9E7D00AF163C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F8BCB4F41671887400014A6B /* icon.png */,
+				F8BCB4F51671887400014A6B /* icon@2x.png */,
 				F8F2B51D166D9E7D00AF163C /* puppy.jpg */,
 				F8F2B51E166D9E7D00AF163C /* puzzle_background.jpg */,
 			);
@@ -286,6 +292,8 @@
 				F8F2B52E166D9EE600AF163C /* PuzzleMainViewController.xib in Resources */,
 				F8F2B5C1166DC49600AF163C /* SettingViewController.xib in Resources */,
 				F8B6D2CE16706DFE00826A94 /* NormalPuzzleViewController.xib in Resources */,
+				F8BCB4F61671887400014A6B /* icon.png in Resources */,
+				F8BCB4F71671887400014A6B /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,11 +352,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jun Wang (EY7PREED6Z)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9BCBBD44-C61D-4A08-BDCE-138F8CEBF28C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
